@@ -1,0 +1,115 @@
+Last login: Thu Apr  4 09:05:56 on console
+Anans-MacBook-Pro:~ anansadiya$ ls
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies			Repos_xcode
+Documents		Music			Worldline
+Anans-MacBook-Pro:~ anansadiya$ cd Repos_xcode/footnet-frontend/
+Anans-MacBook-Pro:footnet-frontend anansadiya$ ls
+FootNet		README.md
+Anans-MacBook-Pro:footnet-frontend anansadiya$ ls -la
+total 32
+drwxr-xr-x   7 anansadiya  staff   224 Apr  1 10:44 .
+drwxr-xr-x  10 anansadiya  staff   320 Apr  4 15:03 ..
+-rw-r--r--@  1 anansadiya  staff  6148 Apr  3 11:37 .DS_Store
+drwxr-xr-x  17 anansadiya  staff   544 Apr  3 11:26 .git
+-rw-r--r--   1 anansadiya  staff  1764 Apr  1 10:44 .gitignore
+drwxr-xr-x  11 anansadiya  staff   352 Apr  1 10:50 FootNet
+-rw-r--r--   1 anansadiya  staff    20 Feb 27 11:03 README.md
+Anans-MacBook-Pro:footnet-frontend anansadiya$ nano .gitignore 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 2.0.6                                                       File: .gitignore                                                                                                                     
+
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+.build/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+Pods/
+Podfile.lock
+#
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
