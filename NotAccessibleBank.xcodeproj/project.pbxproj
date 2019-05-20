@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F05BD11EF5C0F96F0BAF93F /* Pods_NotAccessibleBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBA5D42EF457D1C6B557DCA /* Pods_NotAccessibleBank.framework */; };
 		9E26006322704C2400266B8D /* CustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E26006222704C2400266B8D /* CustomControl.xib */; };
 		9E26006522704C7A00266B8D /* CustomControlXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E26006422704C7A00266B8D /* CustomControlXib.swift */; };
 		9E3677CA22646A81005FF22B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3677C922646A81005FF22B /* Constants.swift */; };
@@ -35,8 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1DBA5D42EF457D1C6B557DCA /* Pods_NotAccessibleBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotAccessibleBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		936737D597414D7ECA4AA2BB /* Pods-NotAccessibleBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotAccessibleBank.release.xcconfig"; path = "Target Support Files/Pods-NotAccessibleBank/Pods-NotAccessibleBank.release.xcconfig"; sourceTree = "<group>"; };
 		9E26006222704C2400266B8D /* CustomControl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomControl.xib; sourceTree = "<group>"; };
 		9E26006422704C7A00266B8D /* CustomControlXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControlXib.swift; sourceTree = "<group>"; };
 		9E3677C922646A81005FF22B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -63,7 +60,6 @@
 		9EAF6F8C22538F96003F2555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EAF6F8F22538F96003F2555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EAF6F9122538F96003F2555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDA55DB9FFCEE85B126814A8 /* Pods-NotAccessibleBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotAccessibleBank.debug.xcconfig"; path = "Target Support Files/Pods-NotAccessibleBank/Pods-NotAccessibleBank.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,21 +67,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F05BD11EF5C0F96F0BAF93F /* Pods_NotAccessibleBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4AC4481FB0E45C4AD73E704E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1DBA5D42EF457D1C6B557DCA /* Pods_NotAccessibleBank.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		9E3677D322648E0B005FF22B /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +142,6 @@
 				9EAF6F8422538F94003F2555 /* NotAccessibleBank */,
 				9EAF6F8322538F94003F2555 /* Products */,
 				B7F599C21A13F25F92EDE6F7 /* Pods */,
-				4AC4481FB0E45C4AD73E704E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,8 +173,6 @@
 		B7F599C21A13F25F92EDE6F7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FDA55DB9FFCEE85B126814A8 /* Pods-NotAccessibleBank.debug.xcconfig */,
-				936737D597414D7ECA4AA2BB /* Pods-NotAccessibleBank.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,11 +184,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EAF6F9422538F96003F2555 /* Build configuration list for PBXNativeTarget "NotAccessibleBank" */;
 			buildPhases = (
-				42B2955D6E1AB4C492F74E3B /* [CP] Check Pods Manifest.lock */,
 				9EAF6F7E22538F94003F2555 /* Sources */,
 				9EAF6F7F22538F94003F2555 /* Frameworks */,
 				9EAF6F8022538F94003F2555 /* Resources */,
-				97FCFD6F12FF57C980E098C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,57 +244,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		42B2955D6E1AB4C492F74E3B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NotAccessibleBank-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		97FCFD6F12FF57C980E098C3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NotAccessibleBank/Pods-NotAccessibleBank-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
-				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
-				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotAccessibleBank/Pods-NotAccessibleBank-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9EAF6F7E22538F94003F2555 /* Sources */ = {
@@ -481,7 +412,6 @@
 		};
 		9EAF6F9522538F96003F2555 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDA55DB9FFCEE85B126814A8 /* Pods-NotAccessibleBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,7 +431,6 @@
 		};
 		9EAF6F9622538F96003F2555 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 936737D597414D7ECA4AA2BB /* Pods-NotAccessibleBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
