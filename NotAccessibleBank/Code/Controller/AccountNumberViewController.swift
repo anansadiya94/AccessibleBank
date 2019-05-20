@@ -18,8 +18,8 @@ class AccountNumberViewController: BaseViewController, UITextFieldDelegate {
     @IBOutlet weak var accountNumberTextField: UITextField!
     @IBOutlet weak var infoLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var cancelButton: MDCButton!
-    @IBOutlet weak var acceptButton: MDCButton!
+    @IBOutlet weak var cancelButton: UIButton!
+    @IBOutlet weak var acceptButton: UIButton!
     @IBOutlet weak var errorButton: UIButton!
     
     // MARK: LifeCycle
@@ -67,13 +67,13 @@ class AccountNumberViewController: BaseViewController, UITextFieldDelegate {
         //cancel button
         cancelButton.tintColor = .white
         cancelButton.backgroundColor = .colorSecondary
-        cancelButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
+        //cancelButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
         cancelButton.addTarget(self, action: #selector(AccountNumberViewController.cancelTapped), for: .touchUpInside)
         
         //accept button
         acceptButton.tintColor = .white
         acceptButton.backgroundColor = .colorSecondary
-        acceptButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
+        //acceptButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
         acceptButton.addTarget(self, action: #selector(AccountNumberViewController.acceptTapped), for: .touchUpInside)
         
         //error button

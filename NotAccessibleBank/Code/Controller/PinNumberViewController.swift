@@ -12,18 +12,18 @@ import MaterialComponents.MaterialButtons
 class PinNumberViewController: BaseViewController, UITextFieldDelegate {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var pinLabel: UILabel!
-    @IBOutlet weak var okButton: MDCButton!
-    @IBOutlet weak var cancelButton: MDCButton!
-    @IBOutlet weak var zeroButton: MDCButton!
-    @IBOutlet weak var oneButton: MDCButton!
-    @IBOutlet weak var twoButton: MDCButton!
-    @IBOutlet weak var threeButton: MDCButton!
-    @IBOutlet weak var fourButton: MDCButton!
-    @IBOutlet weak var fiveButton: MDCButton!
-    @IBOutlet weak var sixButton: MDCButton!
-    @IBOutlet weak var sevenButton: MDCButton!
-    @IBOutlet weak var eightButton: MDCButton!
-    @IBOutlet weak var ninebutton: MDCButton!
+    @IBOutlet weak var okButton: UIButton!
+    @IBOutlet weak var cancelButton: UIButton!
+    @IBOutlet weak var zeroButton: UIButton!
+    @IBOutlet weak var oneButton: UIButton!
+    @IBOutlet weak var twoButton: UIButton!
+    @IBOutlet weak var threeButton: UIButton!
+    @IBOutlet weak var fourButton: UIButton!
+    @IBOutlet weak var fiveButton: UIButton!
+    @IBOutlet weak var sixButton: UIButton!
+    @IBOutlet weak var sevenButton: UIButton!
+    @IBOutlet weak var eightButton: UIButton!
+    @IBOutlet weak var ninebutton: UIButton!
     @IBOutlet weak var errorButton: UIButton!
 
     var pinArray = ["","","",""]
@@ -68,21 +68,21 @@ class PinNumberViewController: BaseViewController, UITextFieldDelegate {
     private func setOkButton() {
         okButton.tintColor = .white
         okButton.backgroundColor = .green
-        okButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
+        //okButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
         okButton.addTarget(self, action: #selector(PinNumberViewController.okTapped), for: .touchUpInside)
     }
     
     private func setCancelButton() {
         cancelButton.tintColor = .white
         cancelButton.backgroundColor = .red
-        cancelButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
+        //cancelButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
         cancelButton.addTarget(self, action: #selector(PinNumberViewController.cancelTapped), for: .touchUpInside)
     }
     
-    private func setNumberButton(_ numberButton: MDCButton, _ tag: Int) {
+    private func setNumberButton(_ numberButton: UIButton, _ tag: Int) {
         numberButton.tintColor = .white
         numberButton.backgroundColor = .colorSecondary
-        numberButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
+        //numberButton.setElevation(ShadowElevation(rawValue: 6), for: .normal)
         numberButton.addTarget(self, action: #selector(PinNumberViewController.numberTapped(sender:)), for: .touchUpInside)
         numberButton.tag = tag
     }
@@ -137,7 +137,7 @@ class PinNumberViewController: BaseViewController, UITextFieldDelegate {
     }
     
     // MARK: UI events management
-    @objc func numberTapped(sender: MDCButton) {
+    @objc func numberTapped(sender: UIButton) {
         if (canButtonBeTapped(nowTime: NSDate())) {
             pinArray.removeFirst()
             pinArray.append(String(sender.tag))
