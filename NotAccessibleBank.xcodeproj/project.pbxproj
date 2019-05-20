@@ -149,18 +149,6 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
-		9E980408226725D0009AC4DF /* Code */ = {
-			isa = PBXGroup;
-			children = (
-				9E3677D322648E0B005FF22B /* Data */,
-				9E3677D622648E3C005FF22B /* Model */,
-				9E3677DB2264906F005FF22B /* Controller */,
-				9E3677DC22649078005FF22B /* View */,
-				9E5DDB0C22549F0F008B8F4E /* Utils */,
-			);
-			path = Code;
-			sourceTree = "<group>";
-		};
 		9EAF6F7922538F94003F2555 = {
 			isa = PBXGroup;
 			children = (
@@ -187,7 +175,11 @@
 				9EAF6F8E22538F96003F2555 /* LaunchScreen.storyboard */,
 				9EAF6F8922538F94003F2555 /* Main.storyboard */,
 				9EAF6F8C22538F96003F2555 /* Assets.xcassets */,
-				9E980408226725D0009AC4DF /* Code */,
+				9E3677D322648E0B005FF22B /* Data */,
+				9E3677D622648E3C005FF22B /* Model */,
+				9E3677DB2264906F005FF22B /* Controller */,
+				9E3677DC22649078005FF22B /* View */,
+				9E5DDB0C22549F0F008B8F4E /* Utils */,
 			);
 			path = NotAccessibleBank;
 			sourceTree = "<group>";
