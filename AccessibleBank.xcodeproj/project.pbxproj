@@ -54,7 +54,7 @@
 		9E98040B2267687F009AC4DF /* SSBadgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSBadgeButton.swift; sourceTree = "<group>"; };
 		9E9E599022660634002816B6 /* services.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = services.html; sourceTree = "<group>"; };
 		9EAADAAD226F1ACD00396327 /* CustomControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControl.swift; sourceTree = "<group>"; };
-		9EAF6F8222538F94003F2555 /* NotAccessibleBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotAccessibleBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAF6F8222538F94003F2555 /* AccessibleBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessibleBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAF6F8522538F94003F2555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EAF6F8A22538F94003F2555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EAF6F8C22538F96003F2555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		9EAF6F7922538F94003F2555 = {
 			isa = PBXGroup;
 			children = (
-				9EAF6F8422538F94003F2555 /* NotAccessibleBank */,
+				9EAF6F8422538F94003F2555 /* AccessibleBank */,
 				9EAF6F8322538F94003F2555 /* Products */,
 				B7F599C21A13F25F92EDE6F7 /* Pods */,
 			);
@@ -148,12 +148,12 @@
 		9EAF6F8322538F94003F2555 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EAF6F8222538F94003F2555 /* NotAccessibleBank.app */,
+				9EAF6F8222538F94003F2555 /* AccessibleBank.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EAF6F8422538F94003F2555 /* NotAccessibleBank */ = {
+		9EAF6F8422538F94003F2555 /* AccessibleBank */ = {
 			isa = PBXGroup;
 			children = (
 				9EAF6F8522538F94003F2555 /* AppDelegate.swift */,
@@ -167,7 +167,7 @@
 				9E3677DC22649078005FF22B /* View */,
 				9E5DDB0C22549F0F008B8F4E /* Utils */,
 			);
-			path = NotAccessibleBank;
+			path = AccessibleBank;
 			sourceTree = "<group>";
 		};
 		B7F599C21A13F25F92EDE6F7 /* Pods */ = {
@@ -180,9 +180,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EAF6F8122538F94003F2555 /* NotAccessibleBank */ = {
+		9EAF6F8122538F94003F2555 /* AccessibleBank */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EAF6F9422538F96003F2555 /* Build configuration list for PBXNativeTarget "NotAccessibleBank" */;
+			buildConfigurationList = 9EAF6F9422538F96003F2555 /* Build configuration list for PBXNativeTarget "AccessibleBank" */;
 			buildPhases = (
 				9EAF6F7E22538F94003F2555 /* Sources */,
 				9EAF6F7F22538F94003F2555 /* Frameworks */,
@@ -192,9 +192,9 @@
 			);
 			dependencies = (
 			);
-			name = NotAccessibleBank;
+			name = AccessibleBank;
 			productName = NotAccessibleBank;
-			productReference = 9EAF6F8222538F94003F2555 /* NotAccessibleBank.app */;
+			productReference = 9EAF6F8222538F94003F2555 /* AccessibleBank.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9EAF6F7D22538F94003F2555 /* Build configuration list for PBXProject "NotAccessibleBank" */;
+			buildConfigurationList = 9EAF6F7D22538F94003F2555 /* Build configuration list for PBXProject "AccessibleBank" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,7 +225,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EAF6F8122538F94003F2555 /* NotAccessibleBank */,
+				9EAF6F8122538F94003F2555 /* AccessibleBank */,
 			);
 		};
 /* End PBXProject section */
@@ -416,13 +416,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
-				INFOPLIST_FILE = NotAccessibleBank/Info.plist;
+				INFOPLIST_FILE = AccessibleBank/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NotAccessibleBank.NotAccessibleBank;
+				PRODUCT_BUNDLE_IDENTIFIER = AccessibleBank.AccessibleBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -435,13 +435,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
-				INFOPLIST_FILE = NotAccessibleBank/Info.plist;
+				INFOPLIST_FILE = AccessibleBank/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NotAccessibleBank.NotAccessibleBank;
+				PRODUCT_BUNDLE_IDENTIFIER = AccessibleBank.AccessibleBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,7 +451,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EAF6F7D22538F94003F2555 /* Build configuration list for PBXProject "NotAccessibleBank" */ = {
+		9EAF6F7D22538F94003F2555 /* Build configuration list for PBXProject "AccessibleBank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EAF6F9222538F96003F2555 /* Debug */,
@@ -460,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EAF6F9422538F96003F2555 /* Build configuration list for PBXNativeTarget "NotAccessibleBank" */ = {
+		9EAF6F9422538F96003F2555 /* Build configuration list for PBXNativeTarget "AccessibleBank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EAF6F9522538F96003F2555 /* Debug */,
