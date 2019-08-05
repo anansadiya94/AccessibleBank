@@ -1,3 +1,3 @@
-# NotAccessibleBank
+# AccessibleBank
 
 My first accessible app
